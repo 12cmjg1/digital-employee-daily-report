@@ -1,0 +1,101 @@
+[
+  {
+    "id": "demo-ai-001",
+    "title": "New multimodal foundation model improves visual reasoning",
+    "url": "https://example.com/ai-model",
+    "source": "demo",
+    "published_at": "2026-05-20",
+    "summary": "A new multimodal foundation model improves image-text reasoning and supports more efficient fine-tuning.",
+    "content": "The model combines visual encoders and language models to improve reasoning on image-text tasks.",
+    "category": "ai",
+    "tags": ["multimodal", "foundation model", "deep learning"]
+  },
+  {
+    "id": "demo-ai-002",
+    "title": "Agent framework adds tool planning and memory evaluation",
+    "url": "https://example.com/agent-framework",
+    "source": "demo",
+    "published_at": "2026-05-20",
+    "summary": "An open-source agent framework introduces a benchmark for tool planning, memory use, and task recovery.",
+    "content": "The framework focuses on evaluating long-horizon agent workflows and practical orchestration reliability.",
+    "category": "ai",
+    "tags": ["agent", "tool use", "evaluation"]
+  },
+  {
+    "id": "demo-ai-003",
+    "title": "Efficient fine-tuning method reduces GPU memory usage",
+    "url": "https://example.com/fine-tuning",
+    "source": "demo",
+    "published_at": "2026-05-19",
+    "summary": "A parameter-efficient fine-tuning method reports lower memory usage while preserving model quality.",
+    "content": "The method targets smaller teams that need to adapt foundation models without expensive training clusters.",
+    "category": "ai",
+    "tags": ["fine-tuning", "foundation model", "GPU"]
+  },
+  {
+    "id": "demo-robotics-001",
+    "title": "Open-source ROS2 navigation package adds better dynamic obstacle handling",
+    "url": "https://example.com/ros2-nav",
+    "source": "demo",
+    "published_at": "2026-05-20",
+    "summary": "A ROS2 navigation package introduces improved local planning for dynamic obstacle environments.",
+    "content": "The update improves local planner behavior when pedestrians and moving objects appear near the robot.",
+    "category": "robotics",
+    "tags": ["ROS2", "navigation", "SLAM"]
+  },
+  {
+    "id": "demo-robotics-002",
+    "title": "Humanoid robot demo shows improved bimanual manipulation",
+    "url": "https://example.com/humanoid-manipulation",
+    "source": "demo",
+    "published_at": "2026-05-19",
+    "summary": "A humanoid robot demonstration shows better two-arm coordination for household manipulation tasks.",
+    "content": "The system combines vision-language commands, motion planning, and force feedback for safer manipulation.",
+    "category": "robotics",
+    "tags": ["humanoid robot", "robot manipulation", "embodied intelligence"]
+  },
+  {
+    "id": "demo-robotics-003",
+    "title": "SLAM benchmark adds indoor dynamic-scene sequences",
+    "url": "https://example.com/slam-benchmark",
+    "source": "demo",
+    "published_at": "2026-05-18",
+    "summary": "A SLAM benchmark adds indoor scenes with moving people and changing lighting conditions.",
+    "content": "The benchmark is useful for comparing mapping robustness in service robot and warehouse scenarios.",
+    "category": "robotics",
+    "tags": ["SLAM", "benchmark", "robot navigation"]
+  },
+  {
+    "id": "demo-industry-001",
+    "title": "Robotics startup releases compact warehouse picking robot",
+    "url": "https://example.com/warehouse-robot",
+    "source": "demo",
+    "published_at": "2026-05-20",
+    "summary": "A robotics startup releases a compact robot for warehouse item picking and inventory management.",
+    "content": "The product targets small and medium warehouses and combines vision, manipulation, and autonomous navigation.",
+    "category": "industry",
+    "tags": ["warehouse", "robotics startup", "product"]
+  },
+  {
+    "id": "demo-industry-002",
+    "title": "NVIDIA robotics platform update focuses on simulation-to-real deployment",
+    "url": "https://example.com/nvidia-robotics",
+    "source": "demo",
+    "published_at": "2026-05-19",
+    "summary": "A robotics platform update improves synthetic data generation and simulation-to-real validation workflows.",
+    "content": "The release targets developers building perception, planning, and manipulation systems for robots.",
+    "category": "industry",
+    "tags": ["NVIDIA robotics", "simulation", "developer platform"]
+  },
+  {
+    "id": "demo-industry-003",
+    "title": "Industrial robot maker launches AI product inspection solution",
+    "url": "https://example.com/inspection-solution",
+    "source": "demo",
+    "published_at": "2026-05-18",
+    "summary": "An industrial robot maker launches an AI-based visual inspection product for manufacturing lines.",
+    "content": "The solution combines robotic arms, cameras, and defect detection models to reduce manual inspection workload.",
+    "category": "industry",
+    "tags": ["industrial robot", "AI product", "manufacturing"]
+  }
+]

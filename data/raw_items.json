@@ -1,0 +1,196 @@
+{
+  "collected_at": "2026-06-10T15:53:22.981109+00:00",
+  "mode": "real",
+  "errors": [],
+  "count": 12,
+  "items": [
+    {
+      "id": "rss-1972565721499228785",
+      "title": "The Download: the “steroid olympics” and a safer Mythos",
+      "url": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
+      "source": "rss:MIT Technology Review",
+      "published_at": "Wed, 10 Jun 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parking lot in Las…",
+      "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parking lot in Las…",
+      "category": "unknown",
+      "tags": [
+        "The Download"
+      ]
+    },
+    {
+      "id": "arxiv-2606.11190v1",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "url": "https://arxiv.org/abs/2606.11190v1",
+      "source": "arXiv",
+      "published_at": "2026-06-09T17:59:58Z",
+      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in scientific domains like biomedicine or astrophysics, with heterogeneous instruments and multiple levels of organization and measurement, unable to diagnose why standard methods underperform the best single modality. We develop a unified linear framework that addresses both questions. Under a spiked signal-plus-noise model with structured cross-modal nuisance correlation, we derive separation ratios for both objectives that expose complementary failure modes: alignment whitens each modality and fails when nuisance is strongly correlated across views; prediction encodes whatever is cross-predictable through a one-sided whitening, with recovery governed by source-modality quality. The resulting phase diagram partitions multimodal problems into four regimes: Both, CA only, CP only, and Neither. We present a data-driven procedure to locate real-world datasets in this diagram using a small lab",
+      "content": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in scientific domains like biomedicine or astrophysics, with heterogeneous instruments and multiple levels of organization and measurement, unable to diagnose why standard methods underperform the best single modality. We develop a unified linear framework that addresses both questions. Under a spiked signal-plus-noise model with structured cross-modal nuisance correlation, we derive separation ratios for both objectives that expose complementary failure modes: alignment whitens each modality and fails when nuisance is strongly correlated across views; prediction encodes whatever is cross-predictable through a one-sided whitening, with recovery governed by source-modality quality. The resulting phase diagram partitions multimodal problems into four regimes: Both, CA only, CP only, and Neither. We present a data-driven procedure to locate real-world datasets in this diagram using a small lab",
+      "category": "ai",
+      "tags": [
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "github-1187014628",
+      "title": "can4hou6joeng4/boss-agent-cli",
+      "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
+      "source": "GitHub",
+      "published_at": "2026-06-10T15:11:15Z",
+      "summary": "AI-agent-first CLI for BOSS 直聘 — 职位搜索、福利筛选、招聘者工作流、MCP 工具与 AI 简历优化",
+      "content": "Stars: 1138. Language: Python. AI-agent-first CLI for BOSS 直聘 — 职位搜索、福利筛选、招聘者工作流、MCP 工具与 AI 简历优化",
+      "category": "ai",
+      "tags": [
+        "agent-skill",
+        "agent-tools",
+        "ai-agent",
+        "automation",
+        "boss-zhipin",
+        "cli",
+        "job-hunting",
+        "job-search"
+      ]
+    },
+    {
+      "id": "industry-rss-5492927517639120609",
+      "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "source": "industry-rss:Robotics News | TechCrunch",
+      "published_at": "Thu, 04 Jun 2026 15:05:00 +0000",
+      "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "content": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "category": "industry",
+      "tags": [
+        "industry",
+        "product",
+        "commercialization"
+      ]
+    },
+    {
+      "id": "rss-3615167588560663278",
+      "title": "We Are Crowd-Sourcing the Panopticon",
+      "url": "https://spectrum.ieee.org/unintended-consequences-video-surveillance",
+      "source": "rss:IEEE Spectrum",
+      "published_at": "Wed, 10 Jun 2026 13:00:00 +0000",
+      "summary": "A man raises his phone as police move into a crowd. The video is shaky, loud, immediate. Within minutes, it is online. Within hours, it is everywhere. This is how accountability works now. Something happens, someone records it, and that footage can show what really happened, sometimes contradicting official accounts. It can empower citizens and create consequences for officials. But the footage’s life cycle does not end there. In recent months, civil liberties groups have warned that adding facial recognition to consumer smart glasses could turn everyday recording into something more troubling: real-time facial identification . It reflects a broader shift already underway, where images and videos captured for one purpose can later be searched , matched, and used for another. An ouroboros is an ancient Egyptian symbol, a snake or dragon eating its own tail. As I began to see patterns in my broader research on surveillance corporatism and governance lag, I began using the term “surveillance ouroboros” to describe this recursive pattern of observations intended to hold power accountable becoming new input for the same surveillance infrastructure. Facial recognition changes accountabil",
+      "content": "A man raises his phone as police move into a crowd. The video is shaky, loud, immediate. Within minutes, it is online. Within hours, it is everywhere. This is how accountability works now. Something happens, someone records it, and that footage can show what really happened, sometimes contradicting official accounts. It can empower citizens and create consequences for officials. But the footage’s life cycle does not end there. In recent months, civil liberties groups have warned that adding facial recognition to consumer smart glasses could turn everyday recording into something more troubling: real-time facial identification . It reflects a broader shift already underway, where images and videos captured for one purpose can later be searched , matched, and used for another. An ouroboros is an ancient Egyptian symbol, a snake or dragon eating its own tail. As I began to see patterns in my broader research on surveillance corporatism and governance lag, I began using the term “surveillance ouroboros” to describe this recursive pattern of observations intended to hold power accountable becoming new input for the same surveillance infrastructure. Facial recognition changes accountabil",
+      "category": "unknown",
+      "tags": [
+        "Surveillance",
+        "Surveillance-state",
+        "Facial-recognition",
+        "Data-protection"
+      ]
+    },
+    {
+      "id": "arxiv-2606.11189v1",
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "url": "https://arxiv.org/abs/2606.11189v1",
+      "source": "arXiv",
+      "published_at": "2026-06-09T17:59:54Z",
+      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model encodes a rich knowledge prior. In this work, we reinterpret SFT as target distribution design: instead of studying only the loss objective, we analyze the token-level target that the loss drives the model to match. We introduce the Q-target framework, which decomposes SFT supervision into two explicit choices: (1) how strongly to rely on the observed token, and (2) how to allocate the remaining probability mass over alternatives. This perspective unifies many existing SFT variants as implicit choices of the target distribution Q. Building on this view, we propose Target-SFT which constructs the training objective directly from the desired target distribution. This method consistently outperforms across the ten reasoning dataset-model settings evaluated, showing the effectiveness of this target-based approach. Overall, our formulation reveals a more fundamental design principle for SFT tra",
+      "content": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model encodes a rich knowledge prior. In this work, we reinterpret SFT as target distribution design: instead of studying only the loss objective, we analyze the token-level target that the loss drives the model to match. We introduce the Q-target framework, which decomposes SFT supervision into two explicit choices: (1) how strongly to rely on the observed token, and (2) how to allocate the remaining probability mass over alternatives. This perspective unifies many existing SFT variants as implicit choices of the target distribution Q. Building on this view, we propose Target-SFT which constructs the training objective directly from the desired target distribution. This method consistently outperforms across the ten reasoning dataset-model settings evaluated, showing the effectiveness of this target-based approach. Overall, our formulation reveals a more fundamental design principle for SFT tra",
+      "category": "ai",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "github-1141769447",
+      "title": "Wide-Moat/open-computer-use",
+      "url": "https://github.com/Wide-Moat/open-computer-use",
+      "source": "GitHub",
+      "published_at": "2026-06-10T07:30:39Z",
+      "summary": "MCP server that gives any LLM its own computer — managed Docker workspaces with live browser, terminal, code execution, document skills, and autonomous sub-agents. Self-hosted, open-source, pluggable into any model.",
+      "content": "Stars: 94. Language: Python. MCP server that gives any LLM its own computer — managed Docker workspaces with live browser, terminal, code execution, document skills, and autonomous sub-agents. Self-hosted, open-source, pluggable into any model.",
+      "category": "ai",
+      "tags": [
+        "agents",
+        "claude-code",
+        "computer-use",
+        "llm",
+        "mcp-server",
+        "openwebui",
+        "skills"
+      ]
+    },
+    {
+      "id": "rss-8395996618947770932",
+      "title": "The “steroid olympics” were a circus—and a window into our culture",
+      "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
+      "source": "rss:MIT Technology Review",
+      "published_at": "Wed, 10 Jun 2026 09:00:00 +0000",
+      "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy of steroids, metabolic modulators, and synthetic hormones coursing through the blood of a few dozen swimmers, sprinters, and weightlifters. And millions of dollars up for grabs for athletes…",
+      "content": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy of steroids, metabolic modulators, and synthetic hormones coursing through the blood of a few dozen swimmers, sprinters, and weightlifters. And millions of dollars up for grabs for athletes…",
+      "category": "unknown",
+      "tags": [
+        "Biotechnology and health",
+        "App",
+        "Features and Investigations",
+        "The Big Story"
+      ]
+    },
+    {
+      "id": "arxiv-2606.11184v1",
+      "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+      "url": "https://arxiv.org/abs/2606.11184v1",
+      "source": "arXiv",
+      "published_at": "2026-06-09T17:59:03Z",
+      "summary": "Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorporating tactile or force feedback, but they rarely model the asymmetric spatiotemporal roles of global force and local tactile sensing. To address this, we propose TacForeSight, a lightweight force-conditioned tactile foresight framework for real-time manipulation. The core component is TacForceWM, a tactile world model that predicts short-horizon tactile latent dynamics from dual-finger tactile observations conditioned on high-frequency wrist force and torque signals. Another key component, the Predictive Tactile-Conditioned Policy, leverages the predicted latents as anticipatory contact priors, models the current-to-future tactile evolution via cross-attention, and adaptively fuses visuo-tactile features through a tactile-guided gating module. By forecasting purely within a compact latent space, TacForeSight enables proactive contact reasoning with efficient real-time inference suitable for high-frequency manipulation control. Real-rob",
+      "content": "Contact-rich manipulation requires robots to continuously perceive and regulate evolving physical interactions under dynamic contact transitions or complex surface geometries. Recent imitation learning methods improve contact-aware control by incorporating tactile or force feedback, but they rarely model the asymmetric spatiotemporal roles of global force and local tactile sensing. To address this, we propose TacForeSight, a lightweight force-conditioned tactile foresight framework for real-time manipulation. The core component is TacForceWM, a tactile world model that predicts short-horizon tactile latent dynamics from dual-finger tactile observations conditioned on high-frequency wrist force and torque signals. Another key component, the Predictive Tactile-Conditioned Policy, leverages the predicted latents as anticipatory contact priors, models the current-to-future tactile evolution via cross-attention, and adaptively fuses visuo-tactile features through a tactile-guided gating module. By forecasting purely within a compact latent space, TacForeSight enables proactive contact reasoning with efficient real-time inference suitable for high-frequency manipulation control. Real-rob",
+      "category": "robotics",
+      "tags": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "github-49970739",
+      "title": "DataDog/datadog-agent",
+      "url": "https://github.com/DataDog/datadog-agent",
+      "source": "GitHub",
+      "published_at": "2026-06-10T15:52:10Z",
+      "summary": "Main repository for Datadog Agent",
+      "content": "Stars: 3643. Language: Go. Main repository for Datadog Agent",
+      "category": "ai",
+      "tags": [
+        "apm-agent",
+        "apm-instrumentation",
+        "datadog",
+        "distributed-tracing",
+        "go",
+        "logging",
+        "metrics",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "rss-5477803200851685150",
+      "title": "What Size Company Is Right for You?",
+      "url": "https://spectrum.ieee.org/fortune-500-companies-vs-startups",
+      "source": "rss:IEEE Spectrum",
+      "published_at": "Tue, 09 Jun 2026 18:41:14 +0000",
+      "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Small Startup, Mid-Size Company, or Fortune 100? The Pros and Cons Early in my career, I walked into a shared office space on my first day as a full stack software developer and sat down between the CTO and the CEO to get onboarded. There were four of us in total. Before the day was over, I received my first assignment. This was one of the most formative—and most stressful—experiences of my professional life. In the decade since, I have worked at half a dozen companies including Fortune 100 firms, mid-size startups, and companies you’ve probably never heard of. I have also spoken with roughly a thousand developers at various stages of their careers. Most engineers entering the field are obsessed with landing at Google, Meta, or Amazon. But those roles represent approximately 0.6 percent of software engineering positions. For most of us, the real choice is between a small startup, a mid-size company, and a large enterprise. Each comes w",
+      "content": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Small Startup, Mid-Size Company, or Fortune 100? The Pros and Cons Early in my career, I walked into a shared office space on my first day as a full stack software developer and sat down between the CTO and the CEO to get onboarded. There were four of us in total. Before the day was over, I received my first assignment. This was one of the most formative—and most stressful—experiences of my professional life. In the decade since, I have worked at half a dozen companies including Fortune 100 firms, mid-size startups, and companies you’ve probably never heard of. I have also spoken with roughly a thousand developers at various stages of their careers. Most engineers entering the field are obsessed with landing at Google, Meta, or Amazon. But those roles represent approximately 0.6 percent of software engineering positions. For most of us, the real choice is between a small startup, a mid-size company, and a large enterprise. Each comes w",
+      "category": "unknown",
+      "tags": [
+        "Careers-newsletter",
+        "Tech-careers",
+        "Engineering-careers"
+      ]
+    },
+    {
+      "id": "rss-3756952324813655041",
+      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
+      "source": "rss:MIT Technology Review",
+      "published_at": "Tue, 09 Jun 2026 12:10:00 +0000",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition The outspoken longevity scientist David Sinclair has predicted that, one day, you’ll go to the doctor and get a…",
+      "content": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition The outspoken longevity scientist David Sinclair has predicted that, one day, you’ll go to the doctor and get a…",
+      "category": "unknown",
+      "tags": [
+        "The Download"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+project:
+  name: "每日 AI 与机器人技术情报数字员工系统"
+  language: "zh-CN"
+  timezone: "Asia/Shanghai"
+
+runtime:
+  mode: "demo"
+  llm_provider: "mock"
+  max_items_total: 15
+  max_items_per_agent: 5
+
+keywords:
+  ai:
+    - "artificial intelligence"
+    - "large language model"
+    - "deep learning"
+    - "machine learning"
+    - "multimodal AI"
+    - "foundation model"
+    - "agent"
+  robotics:
+    - "robotics"
+    - "embodied intelligence"
+    - "ROS2"
+    - "SLAM"
+    - "robot navigation"
+    - "robot manipulation"
+    - "humanoid robot"
+  industry:
+    - "AI company"
+    - "robotics startup"
+    - "NVIDIA robotics"
+    - "Tesla robot"
+    - "industrial robot"
+    - "AI product"
+    - "warehouse"
+
+sources:
+  rss:
+    enabled: false
+    urls:
+      - "https://example.com/rss"
+  arxiv:
+    enabled: false
+    categories:
+      - "cs.AI"
+      - "cs.RO"
+      - "cs.LG"
+  github:
+    enabled: false
+    query: "robotics OR ROS2 OR embodied intelligence"
+  industry_news:
+    enabled: false
+    feeds:
+      - "https://www.therobotreport.com/feed/"
+      - "https://www.robotics247.com/feed/"
+      - "https://techcrunch.com/category/robotics/feed/"
+    queries:
+      - "site:therobotreport.com robotics startup funding product launch 2026"
+      - "site:robotics247.com warehouse robot deployment customer 2026"
+      - "site:techcrunch.com robotics startup funding AI robot 2026"
+      - "site:spectrum.ieee.org robotics company product launch"
+      - "humanoid robot company partnership manufacturing deployment"
+      - "industrial robot AI inspection product customer deployment"
+
+report:
+  title: "每日 AI 与机器人技术情报报告"
+  output_path: "reports/daily_report.md"
+  include_scores: true
+  include_learning_advice: true
+
+channels:
+  dingtalk:
+    enabled: false
+    webhook_env: "DINGTALK_WEBHOOK_URL"
+    secret_env: "DINGTALK_SECRET"
+    title: "每日 AI 与机器人技术情报报告"
+    max_chars: 3200
+    timeout_seconds: 15
+  feishu:
+    enabled: false
+    webhook_env: "FEISHU_WEBHOOK_URL"
+    title: "每日 AI 与机器人技术情报报告"
+    max_chars: 3500
+    timeout_seconds: 15

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-06-10 23:57:40 CST",
+  "claw": "industry",
+  "path": "reports/industry_claw_daily_report.md",
+  "items": [
+    {
+      "id": "industry-rss-8704052824421072761",
+      "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+      "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "source": "industry-rss:Robotics News | TechCrunch",
+      "published_at": "Thu, 04 Jun 2026 15:05:00 +0000",
+      "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "content": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "category": "industry",
+      "tags": [
+        "industry",
+        "product",
+        "commercialization"
+      ]
+    }
+  ],
+  "agent_report": {
+    "agent_name": "产业与产品员工",
+    "category": "industry",
+    "executive_summary": "今日产业员工分析了 1 条信息，重点关注产品发布、平台生态和商业化价值。",
+    "analyzed_items": [
+      {
+        "raw_item": {
+          "id": "industry-rss-8704052824421072761",
+          "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+          "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+          "source": "industry-rss:Robotics News | TechCrunch",
+          "published_at": "Thu, 04 Jun 2026 15:05:00 +0000",
+          "summary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+          "content": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+          "category": "industry",
+          "tags": [
+            "industry",
+            "product",
+            "commercialization"
+          ]
+        },
+        "short_summary": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.：围绕 industry、product、commercialization 展开，核心信息是 The California startup released the fourth-generation of its home assistance robot, Stretch.",
+        "technical_keywords": [
+          "industry",
+          "product",
+          "commercialization"
+        ],
+        "value_analysis": "该信息围绕 industry、product、commercialization 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 3,
+          "engineering_value": 3,
+          "learning_value": 3,
+          "business_value": 4,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      }
+    ],
+    "key_findings": [
+      "仓储、制造质检和仿真平台是机器人产业化的明确应用入口。",
+      "开发平台更新说明生态厂商正在争夺机器人应用开发者。"
+    ],
+    "learning_advice": [
+      "对比同类产品的目标场景、成本结构和部署条件。",
+      "在答辩中说明技术指标如何转化为企业使用价值。"
+    ]
+  }
+}

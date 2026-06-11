@@ -1,0 +1,102 @@
+project:
+  name: "每日 AI 与机器人技术情报数字员工系统"
+  language: "zh-CN"
+  timezone: "Asia/Shanghai"
+
+runtime:
+  mode: "real"
+  llm_provider: "siliconflow"   # mock | openai | siliconflow | anthropic
+  max_items_total: 12
+  max_items_per_agent: 3
+  max_items_per_source: 3
+  use_llm_for_item_summary: false
+  use_llm_for_agent_analysis: false
+  allow_demo_fallback: true
+
+keywords:
+  ai:
+    - "artificial intelligence"
+    - "large language model"
+    - "deep learning"
+    - "machine learning"
+    - "multimodal"
+    - "foundation model"
+    - "AI agent"
+    - "agentic AI"
+  robotics:
+    - "robotics"
+    - "embodied intelligence"
+    - "ROS2"
+    - "SLAM"
+    - "robot navigation"
+    - "robot manipulation"
+    - "humanoid robot"
+    - "robot teams"
+  industry:
+    - "AI company"
+    - "robotics startup"
+    - "NVIDIA robotics"
+    - "Tesla robot"
+    - "industrial robot"
+    - "AI product"
+    - "warehouse robot"
+    - "funding"
+    - "startup"
+    - "data center"
+    - "research center"
+    - "platform"
+    - "market"
+    - "investment"
+    - "company"
+    - "conference"
+
+sources:
+  rss:
+    enabled: true
+    urls:
+      - "https://www.technologyreview.com/feed/"
+      - "https://spectrum.ieee.org/rss/fulltext"
+      - "https://www.therobotreport.com/feed/"
+  arxiv:
+    enabled: true
+    categories:
+      - "cs.AI"
+      - "cs.RO"
+      - "cs.LG"
+  github:
+    enabled: true
+    query: "robotics OR ROS2 OR embodied intelligence OR AI agent"
+  industry_news:
+    enabled: true
+    feeds:
+      - "https://www.therobotreport.com/feed/"
+      - "https://www.robotics247.com/feed/"
+      - "https://techcrunch.com/category/robotics/feed/"
+    queries:
+      - "site:therobotreport.com robotics startup funding product launch 2026"
+      - "site:robotics247.com warehouse robot deployment customer 2026"
+      - "site:techcrunch.com robotics startup funding AI robot 2026"
+      - "site:spectrum.ieee.org robotics company product launch"
+      - "humanoid robot company partnership manufacturing deployment"
+      - "industrial robot AI inspection product customer deployment"
+
+report:
+  title: "真实数据每日 AI 与机器人技术情报报告"
+  output_path: "reports/daily_report.md"
+  include_scores: true
+  include_learning_advice: true
+
+channels:
+  dingtalk:
+    enabled: true
+    webhook_env: "DINGTALK_WEBHOOK_URL"
+    secret_env: "DINGTALK_SECRET"
+    title: "每日 AI 与机器人技术情报报告"
+    max_chars: 3200
+    timeout_seconds: 15
+  feishu:
+    enabled: false
+    webhook_env: "FEISHU_WEBHOOK_URL"
+    title: "每日 AI 与机器人技术情报报告"
+    max_chars: 3500
+    timeout_seconds: 15

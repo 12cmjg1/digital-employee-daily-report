@@ -1,0 +1,346 @@
+{
+  "run_id": "20260605-205244",
+  "generated_at": "2026-06-05T20:52:44.995954+08:00",
+  "ai_report": {
+    "agent_name": "AI 技术员工",
+    "category": "ai",
+    "executive_summary": "今日 AI 技术员工分析了 3 条信息，重点关注模型能力、Agent 编排和训练效率。",
+    "analyzed_items": [
+      {
+        "raw_item": {
+          "id": "demo-ai-001",
+          "title": "New multimodal foundation model improves visual reasoning",
+          "url": "https://example.com/ai-model",
+          "source": "demo",
+          "published_at": "2026-05-20",
+          "summary": "A new multimodal foundation model improves image-text reasoning and supports more efficient fine-tuning.",
+          "content": "The model combines visual encoders and language models to improve reasoning on image-text tasks.",
+          "category": "ai",
+          "tags": [
+            "multimodal",
+            "foundation model",
+            "deep learning"
+          ]
+        },
+        "short_summary": "New multimodal foundation model improves visual reasoning：围绕 multimodal、foundation model、deep learning 展开，核心信息是 A new multimodal foundation model improves image-text reasoning and supports more efficient fine-tuning.",
+        "technical_keywords": [
+          "multimodal",
+          "foundation model",
+          "deep learning"
+        ],
+        "value_analysis": "该信息围绕 multimodal、foundation model、deep learning 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 3,
+          "difficulty": 4,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-ai-002",
+          "title": "Agent framework adds tool planning and memory evaluation",
+          "url": "https://example.com/agent-framework",
+          "source": "demo",
+          "published_at": "2026-05-20",
+          "summary": "An open-source agent framework introduces a benchmark for tool planning, memory use, and task recovery.",
+          "content": "The framework focuses on evaluating long-horizon agent workflows and practical orchestration reliability.",
+          "category": "ai",
+          "tags": [
+            "agent",
+            "tool use",
+            "evaluation"
+          ]
+        },
+        "short_summary": "Agent framework adds tool planning and memory evaluation：围绕 agent、tool use、evaluation 展开，核心信息是 An open-source agent framework introduces a benchmark for tool planning, memory use, and task recovery.",
+        "technical_keywords": [
+          "agent",
+          "tool use",
+          "evaluation"
+        ],
+        "value_analysis": "该信息围绕 agent、tool use、evaluation 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 3,
+          "learning_value": 3,
+          "business_value": 3,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-ai-003",
+          "title": "Efficient fine-tuning method reduces GPU memory usage",
+          "url": "https://example.com/fine-tuning",
+          "source": "demo",
+          "published_at": "2026-05-19",
+          "summary": "A parameter-efficient fine-tuning method reports lower memory usage while preserving model quality.",
+          "content": "The method targets smaller teams that need to adapt foundation models without expensive training clusters.",
+          "category": "ai",
+          "tags": [
+            "fine-tuning",
+            "foundation model",
+            "GPU"
+          ]
+        },
+        "short_summary": "Efficient fine-tuning method reduces GPU memory usage：围绕 fine-tuning、foundation model、GPU 展开，核心信息是 A parameter-efficient fine-tuning method reports lower memory usage while preserving model quality.",
+        "technical_keywords": [
+          "fine-tuning",
+          "foundation model",
+          "GPU"
+        ],
+        "value_analysis": "该信息围绕 fine-tuning、foundation model、GPU 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 3,
+          "difficulty": 4,
+          "recommendation": "B"
+        }
+      }
+    ],
+    "key_findings": [
+      "多模态、Agent 工具调用和高效微调仍是 AI 工程落地的高频方向。",
+      "值得优先关注能降低部署成本、提升评测可靠性的技术更新。"
+    ],
+    "learning_advice": [
+      "复习 Transformer、多模态表示学习和参数高效微调基础。",
+      "尝试把一个小型 Agent 工作流接入真实工具，记录失败恢复策略。"
+    ]
+  },
+  "robotics_report": {
+    "agent_name": "机器人与具身智能员工",
+    "category": "robotics",
+    "executive_summary": "今日机器人员工分析了 3 条信息，重点关注 ROS2、导航、SLAM 和机器人操作。",
+    "analyzed_items": [
+      {
+        "raw_item": {
+          "id": "demo-robotics-001",
+          "title": "Open-source ROS2 navigation package adds better dynamic obstacle handling",
+          "url": "https://example.com/ros2-nav",
+          "source": "demo",
+          "published_at": "2026-05-20",
+          "summary": "A ROS2 navigation package introduces improved local planning for dynamic obstacle environments.",
+          "content": "The update improves local planner behavior when pedestrians and moving objects appear near the robot.",
+          "category": "robotics",
+          "tags": [
+            "ROS2",
+            "navigation",
+            "SLAM"
+          ]
+        },
+        "short_summary": "Open-source ROS2 navigation package adds better dynamic obstacle handling：围绕 ROS2、navigation、SLAM 展开，核心信息是 A ROS2 navigation package introduces improved local planning for dynamic obstacle environments.",
+        "technical_keywords": [
+          "ROS2",
+          "navigation",
+          "SLAM"
+        ],
+        "value_analysis": "该信息围绕 ROS2、navigation、SLAM 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 3,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-robotics-002",
+          "title": "Humanoid robot demo shows improved bimanual manipulation",
+          "url": "https://example.com/humanoid-manipulation",
+          "source": "demo",
+          "published_at": "2026-05-19",
+          "summary": "A humanoid robot demonstration shows better two-arm coordination for household manipulation tasks.",
+          "content": "The system combines vision-language commands, motion planning, and force feedback for safer manipulation.",
+          "category": "robotics",
+          "tags": [
+            "humanoid robot",
+            "robot manipulation",
+            "embodied intelligence"
+          ]
+        },
+        "short_summary": "Humanoid robot demo shows improved bimanual manipulation：围绕 humanoid robot、robot manipulation、embodied intelligence 展开，核心信息是 A humanoid robot demonstration shows better two-arm coordination for household manipulation tasks.",
+        "technical_keywords": [
+          "humanoid robot",
+          "robot manipulation",
+          "embodied intelligence"
+        ],
+        "value_analysis": "该信息围绕 humanoid robot、robot manipulation、embodied intelligence 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 3,
+          "learning_value": 3,
+          "business_value": 3,
+          "difficulty": 4,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-robotics-003",
+          "title": "SLAM benchmark adds indoor dynamic-scene sequences",
+          "url": "https://example.com/slam-benchmark",
+          "source": "demo",
+          "published_at": "2026-05-18",
+          "summary": "A SLAM benchmark adds indoor scenes with moving people and changing lighting conditions.",
+          "content": "The benchmark is useful for comparing mapping robustness in service robot and warehouse scenarios.",
+          "category": "robotics",
+          "tags": [
+            "SLAM",
+            "benchmark",
+            "robot navigation"
+          ]
+        },
+        "short_summary": "SLAM benchmark adds indoor dynamic-scene sequences：围绕 SLAM、benchmark、robot navigation 展开，核心信息是 A SLAM benchmark adds indoor scenes with moving people and changing lighting conditions.",
+        "technical_keywords": [
+          "SLAM",
+          "benchmark",
+          "robot navigation"
+        ],
+        "value_analysis": "该信息围绕 SLAM、benchmark、robot navigation 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 4,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      }
+    ],
+    "key_findings": [
+      "动态环境导航、双臂操作和 SLAM 鲁棒性是机器人系统从 demo 走向应用的关键点。",
+      "开源包和基准数据集比单次演示更适合做课程项目复现。"
+    ],
+    "learning_advice": [
+      "优先熟悉 ROS2 节点、话题、导航栈和 SLAM 评估流程。",
+      "选择一个可复现场景，比较静态与动态障碍下的导航表现。"
+    ]
+  },
+  "industry_report": {
+    "agent_name": "产业与产品员工",
+    "category": "industry",
+    "executive_summary": "今日产业员工分析了 3 条信息，重点关注产品发布、平台生态和商业化价值。",
+    "analyzed_items": [
+      {
+        "raw_item": {
+          "id": "demo-industry-001",
+          "title": "Robotics startup releases compact warehouse picking robot",
+          "url": "https://example.com/warehouse-robot",
+          "source": "demo",
+          "published_at": "2026-05-20",
+          "summary": "A robotics startup releases a compact robot for warehouse item picking and inventory management.",
+          "content": "The product targets small and medium warehouses and combines vision, manipulation, and autonomous navigation.",
+          "category": "industry",
+          "tags": [
+            "warehouse",
+            "robotics startup",
+            "product"
+          ]
+        },
+        "short_summary": "Robotics startup releases compact warehouse picking robot：围绕 warehouse、robotics startup、product 展开，核心信息是 A robotics startup releases a compact robot for warehouse item picking and inventory management.",
+        "technical_keywords": [
+          "warehouse",
+          "robotics startup",
+          "product"
+        ],
+        "value_analysis": "该信息围绕 warehouse、robotics startup、product 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 3,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 4,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-industry-002",
+          "title": "NVIDIA robotics platform update focuses on simulation-to-real deployment",
+          "url": "https://example.com/nvidia-robotics",
+          "source": "demo",
+          "published_at": "2026-05-19",
+          "summary": "A robotics platform update improves synthetic data generation and simulation-to-real validation workflows.",
+          "content": "The release targets developers building perception, planning, and manipulation systems for robots.",
+          "category": "industry",
+          "tags": [
+            "NVIDIA robotics",
+            "simulation",
+            "developer platform"
+          ]
+        },
+        "short_summary": "NVIDIA robotics platform update focuses on simulation-to-real deployment：围绕 NVIDIA robotics、simulation、developer platform 展开，核心信息是 A robotics platform update improves synthetic data generation and simulation-to-real validation workflows.",
+        "technical_keywords": [
+          "NVIDIA robotics",
+          "simulation",
+          "developer platform"
+        ],
+        "value_analysis": "该信息围绕 NVIDIA robotics、simulation、developer platform 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 4,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 4,
+          "difficulty": 4,
+          "recommendation": "B"
+        }
+      },
+      {
+        "raw_item": {
+          "id": "demo-industry-003",
+          "title": "Industrial robot maker launches AI product inspection solution",
+          "url": "https://example.com/inspection-solution",
+          "source": "demo",
+          "published_at": "2026-05-18",
+          "summary": "An industrial robot maker launches an AI-based visual inspection product for manufacturing lines.",
+          "content": "The solution combines robotic arms, cameras, and defect detection models to reduce manual inspection workload.",
+          "category": "industry",
+          "tags": [
+            "industrial robot",
+            "AI product",
+            "manufacturing"
+          ]
+        },
+        "short_summary": "Industrial robot maker launches AI product inspection solution：围绕 industrial robot、AI product、manufacturing 展开，核心信息是 An industrial robot maker launches an AI-based visual inspection product for manufacturing lines.",
+        "technical_keywords": [
+          "industrial robot",
+          "AI product",
+          "manufacturing"
+        ],
+        "value_analysis": "该信息围绕 industrial robot、AI product、manufacturing 展开，可用于跟踪工程方向、学习重点和潜在产品化机会。",
+        "risk_analysis": "仍需核验来源可信度、真实部署条件、复现成本和长期维护风险。",
+        "score": {
+          "novelty": 3,
+          "engineering_value": 4,
+          "learning_value": 4,
+          "business_value": 4,
+          "difficulty": 3,
+          "recommendation": "B"
+        }
+      }
+    ],
+    "key_findings": [
+      "仓储、制造质检和仿真平台是机器人产业化的明确应用入口。",
+      "开发平台更新说明生态厂商正在争夺机器人应用开发者。"
+    ],
+    "learning_advice": [
+      "对比同类产品的目标场景、成本结构和部署条件。",
+      "在答辩中说明技术指标如何转化为企业使用价值。"
+    ]
+  }
+}
