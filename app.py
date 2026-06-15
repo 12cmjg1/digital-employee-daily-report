@@ -1284,179 +1284,168 @@ def _page_openclaw_access() -> None:
 
 
 def _page_showcase() -> None:
+    # ── Hero ──
     st.markdown(
         """
 <div class="hero">
   <div class="kicker">Project Showcase</div>
-  <h1>AI × Robotics 数字员工情报系统</h1>
-  <p>系统围绕 AI 技术、机器人技术、产业产品三条线自动采集信息，生成三个独立日报，并汇总为团队日报和周报。</p>
+  <h1>每日 AI 与机器人技术情报数字员工系统</h1>
+  <p>三个 AI 数字员工每天早上 8 点自动采集、分析、评分，生成三份分方向日报和一份总控汇总，推送钉钉群。已连续运行 11 天，公网可访问。</p>
 </div>
 """,
         unsafe_allow_html=True,
     )
 
+    # ── 四指标卡片 ──
     st.markdown(
         """
 <div class="metric-row">
-  <div class="metric-box"><b>08:00</b><br/>钉钉群自动发布日报</div>
-  <div class="metric-box"><b>周日</b><br/>自动整理汇总周报</div>
-  <div class="metric-box"><b>3 Claws</b><br/>三人独立负责方向</div>
-  <div class="metric-box"><b>Archive</b><br/>历史报告按日期归档</div>
+  <div class="metric-box"><b>3 + 1</b><br/>三个 Claw 员工 + 总控</div>
+  <div class="metric-box"><b>08:00</b><br/>每日自动生成 & 钉钉推送</div>
+  <div class="metric-box"><b>11 天</b><br/>连续稳定运行</div>
+  <div class="metric-box"><b>5 维度</b><br/>评分 + A/B/C 推荐等级</div>
 </div>
 """,
         unsafe_allow_html=True,
     )
 
-    st.markdown(
-        """
-<div class="glass">
-  <h2>当前已实现功能</h2>
-  <p><b>日报：</b>每天早上 8 点自动采集信息，生成 AI 技术日报、机器人技术日报、产业产品日报，并推送到钉钉群。</p>
-  <p><b>汇总：</b>三个独立日报会合并成总控日报；每周日自动整理汇总周报。</p>
-  <p><b>网页：</b>公网 UI 可查看项目总览、日报周报、OpenClaw 对话区和项目展示。</p>
-  <p><b>版本：</b>今日报告可继续修改，修改前保留旧版本；历史日期报告作为归档查看。</p>
+    # ── 核心架构：三层 ──
+    st.markdown("## 核心架构")
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        st.markdown(
+            """
+<div class="card">
+  <span class="badge">展示层</span>
+  <h3>Streamlit Web UI</h3>
+  <p>项目总览 · 日报中心 · OpenClaw 对话 · 项目展示</p>
 </div>
 """,
-        unsafe_allow_html=True,
-    )
+            unsafe_allow_html=True,
+        )
+    with c2:
+        st.markdown(
+            """
+<div class="card">
+  <span class="badge">调度层</span>
+  <h3>crontab + CLI 工具</h3>
+  <p>每日 08:00 日报 · 周日 08:20 周报 · search/daily/weekly/revise</p>
+</div>
+""",
+            unsafe_allow_html=True,
+        )
+    with c3:
+        st.markdown(
+            """
+<div class="card">
+  <span class="badge">核心层</span>
+  <h3>3 Claw + 总控</h3>
+  <p>AI 技术 · 机器人 · 产业 → 总控合并去重 → 统一日报</p>
+</div>
+""",
+            unsafe_allow_html=True,
+        )
 
+    # ── 三张 Claw 卡片 ──
+    st.markdown("## 三个 Claw 数字员工")
     cols = st.columns(3)
-    showcase_cards = [
-        (
-            "刘雨菲",
-            "AI 技术 Claw",
-            "大模型、Agent、多模态、开源 AI 项目",
-            "负责 AI 技术日报，整理模型更新、Agent 工具链、开源项目和学习价值。",
-        ),
-        (
-            "胡尊昊 组长",
-            "机器人技术 Claw",
-            "ROS2、SLAM、导航、机器人操作、具身智能论文",
-            "负责机器人技术日报，并统筹总控日报、周报和系统部署维护。",
-        ),
-        (
-            "刘子轩",
-            "产业与产品 Claw",
-            "机器人公司、AI 产品、商业化部署、投融资动态",
-            "负责产业产品日报，整理公司动态、产品发布、客户部署和商业价值。",
-        ),
+    cards = [
+        ("刘雨菲", "AI 技术 Claw", "大模型 · Agent · 多模态 · 开源项目", "跟踪模型更新与工具链，判断技术新颖性和学习价值"),
+        ("胡尊昊（组长）", "机器人技术 Claw", "ROS2 · SLAM · 导航 · 具身智能", "跟踪论文与工程实践，判断落地条件与复现价值；统筹总控与部署"),
+        ("刘子轩", "产业与产品 Claw", "机器人公司 · 产品发布 · 融资", "跟踪商业动态，判断产品趋势与市场价值"),
     ]
-    for col, (owner, title, focus, output) in zip(cols, showcase_cards):
+    for col, (name, title, focus, desc) in zip(cols, cards):
         with col:
             st.markdown(
                 f"""
 <div class="card">
-  <span class="badge">{owner}</span>
+  <span class="badge">{name}</span>
   <h3>{title}</h3>
-  <p><b>负责方向：</b>{focus}</p>
-  <p><b>主要产出：</b>{output}</p>
+  <p><b>方向：</b>{focus}</p>
+  <p>{desc}</p>
 </div>
 """,
                 unsafe_allow_html=True,
             )
 
-    left, right = st.columns([1.1, 1])
-    with left:
+    # ── 数据流 ──
+    st.markdown(
+        """
+<div class="glass">
+  <h2>数据流</h2>
+  <p style="font-size:1.1rem;text-align:center;color:#67e8f9;">
+  RSS / arXiv / GitHub 多源采集 → 关键词分类 → 三 Claw 并行分析 → 五维度评分 → 总控去重汇总 → Markdown 日报 → Web 展示 + 钉钉推送 + 归档
+  </p>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+
+    # ── 三大亮点 ──
+    st.markdown("## 关键亮点")
+    h1, h2, h3 = st.columns(3)
+    with h1:
         st.markdown(
             """
-<div class="glass">
-  <h2>整体架构</h2>
-  <p><b>展示层：</b>Streamlit 公网页面，负责登录、报告查看、日期归档和对话入口。</p>
-  <p><b>调度层：</b>服务器定时任务每天 8 点跑日报，每周日跑周报。</p>
-  <p><b>工具层：</b><code>openclaw_tools.py</code> 提供 search、daily、weekly、revise 四类命令。</p>
-  <p><b>分析层：</b>三个 Claw 分别调用采集、摘要、评分、报告生成 Agent。</p>
-  <p><b>输出层：</b>Markdown 报告、网页展示、钉钉群推送、历史归档。</p>
+<div class="card">
+  <h3>防 AI 编造</h3>
+  <p>来源链接保留 + 证据编号标注 + 不足显式声明 + Prompt 约束 + Demo 标注。每条结论可逐条追溯到原始 URL。</p>
 </div>
 """,
             unsafe_allow_html=True,
         )
-    with right:
+    with h2:
         st.markdown(
             """
-<div class="glass">
-  <h2>三种 Claw 接入方式</h2>
-  <p><b>网页对话：</b>在 OpenClaw 对话页选择对应 Claw，直接提出搜索、生成或修改要求。</p>
-  <p><b>OpenClaw Skill：</b>正式 OpenClaw 可通过 Skill 调用项目命令，执行真实搜索和报告生成。</p>
-  <p><b>定时任务：</b>服务器定时自动调用工具，生成日报、周报并推送钉钉。</p>
-  <p><b>钉钉接收：</b>群内每天收到自动日报，队员据此继续补充和修改。</p>
+<div class="card">
+  <h3>双模式一键切换</h3>
+  <p><b>Demo 模式</b>：零依赖、零成本、课堂 100% 稳定。<br/><b>真实模式</b>：RSS + arXiv + GitHub + LLM API 全链路真实调用。</p>
+</div>
+""",
+            unsafe_allow_html=True,
+        )
+    with h3:
+        st.markdown(
+            """
+<div class="card">
+  <h3>钉钉每日推送</h3>
+  <p>日报生成后自动推送到钉钉群，队员无需登录服务器，群内即可查看每日技术情报。</p>
 </div>
 """,
             unsafe_allow_html=True,
         )
 
-    st.markdown(
-        """
+    # ── 部署信息 ──
+    st.markdown("## 部署状态")
+    d1, d2 = st.columns(2)
+    with d1:
+        st.markdown(
+            f"""
 <div class="glass">
-  <h2>Claw 内部结构</h2>
-  <p><b>情报采集 Agent：</b>按成员方向抓取 RSS、arXiv、GitHub、产业新闻和定向搜索结果。</p>
-  <p><b>分类与筛选 Agent：</b>把材料分到 AI 技术、机器人技术、产业产品三个日报中。</p>
-  <p><b>分析 Agent：</b>提炼材料重点，判断学习价值、工程价值、商业价值和风险。</p>
-  <p><b>报告生成 Agent：</b>生成对应 Claw 日报；总控 Claw 再合并三个日报形成团队日报和周报。</p>
+  <h3>服务器</h3>
+  <p>阿里云轻量 · 2C2G · Ubuntu 22.04</p>
+  <p>公网：<code>http://47.97.114.62:8501</code></p>
+  <p>进程管理：nohup + crontab</p>
+  <p>LLM：SiliconFlow API（DeepSeek 模型）</p>
 </div>
 """,
-        unsafe_allow_html=True,
-    )
-
-    st.markdown(
-        """
+            unsafe_allow_html=True,
+        )
+    with d2:
+        st.markdown(
+            f"""
 <div class="glass">
-  <h2>信息输入源</h2>
-  <p><b>AI 技术：</b>OpenAI / 大模型动态、Agent 工具链、GitHub 开源项目、技术媒体。</p>
-  <p><b>机器人与具身智能：</b>arXiv cs.RO / cs.AI、ROS2、SLAM、VLA、机器人导航与操作论文。</p>
-  <p><b>产业与产品：</b>The Robot Report、Robotics 24/7、TechCrunch Robotics、机器人公司产品发布、融资和客户部署信息。</p>
-  <p><b>可信度：</b>报告保留来源链接；材料不足时明确说明，不让模型凭空补内容。</p>
+  <h3>运行数据</h3>
+  <p>首次部署：2026-06-05</p>
+  <p>今日日报：2026-06-15 08:00 已生成 ✅</p>
+  <p>连续归档：11 天</p>
+  <p>采集源：RSS · arXiv · GitHub</p>
 </div>
 """,
-        unsafe_allow_html=True,
-    )
+            unsafe_allow_html=True,
+        )
 
-    st.markdown("### 每天队员工作流程")
-    workflow_cols = st.columns(3)
-    workflows = [
-        (
-            "刘雨菲",
-            [
-                "查看钉钉群 8 点推送的 AI 技术日报。",
-                "进入网页 AI 技术 Claw，对不完整的方向继续搜索。",
-                "补充或修改 AI 技术日报中的模型动态、Agent 工具和开源项目。",
-            ],
-        ),
-        (
-            "胡尊昊",
-            [
-                "查看机器人技术日报和总控日报。",
-                "维护服务器、网页、定时任务、钉钉推送和报告汇总。",
-                "用机器人技术 Claw 补充论文、ROS2、SLAM、VLA 等技术内容。",
-            ],
-        ),
-        (
-            "刘子轩",
-            [
-                "查看产业产品日报。",
-                "用产业与产品 Claw 搜索公司动态、产品发布、客户部署和融资信息。",
-                "补充商业价值、应用场景和产品风险判断。",
-            ],
-        ),
-    ]
-    for col, (name, steps) in zip(workflow_cols, workflows):
-        with col:
-            st.markdown(f"**{name}**")
-            for step in steps:
-                st.markdown(f"- {step}")
-
-    st.markdown(
-        """
-<div class="glass">
-  <h2>部署与演示</h2>
-  <p><b>公网 UI：</b><code>http://47.97.114.62:8501</code></p>
-  <p><b>访问密码：</b><code>fengyuwuzu</code></p>
-  <p><b>运行方式：</b>Streamlit 展示面板 + OpenClaw Skill + DeepSeek API + 钉钉日报推送。</p>
-  <p><b>轻量部署：</b>服务器只负责网页、调度和工具调用；模型总结交给 API，避免占用过多本地资源。</p>
-</div>
-""",
-        unsafe_allow_html=True,
-    )
-
+    # ── 报告草稿折叠 ──
     report_draft = _read_text("EXPERIMENT_REPORT_DRAFT.md", "")
     if report_draft:
         with st.expander("查看实验报告草稿"):
