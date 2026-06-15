@@ -1284,7 +1284,6 @@ def _page_openclaw_access() -> None:
 
 
 def _page_showcase() -> None:
-    # ── Hero ──
     st.markdown(
         """
 <div class="hero">
@@ -1296,7 +1295,6 @@ def _page_showcase() -> None:
         unsafe_allow_html=True,
     )
 
-    # ── 四指标卡片 ──
     st.markdown(
         """
 <div class="metric-row">
@@ -1309,7 +1307,6 @@ def _page_showcase() -> None:
         unsafe_allow_html=True,
     )
 
-    # ── 核心架构：三层 ──
     st.markdown("## 核心架构")
     c1, c2, c3 = st.columns(3)
     with c1:
@@ -1346,7 +1343,6 @@ def _page_showcase() -> None:
             unsafe_allow_html=True,
         )
 
-    # ── 三张 Claw 卡片 ──
     st.markdown("## 三个 Claw 数字员工")
     cols = st.columns(3)
     cards = [
@@ -1368,7 +1364,6 @@ def _page_showcase() -> None:
                 unsafe_allow_html=True,
             )
 
-    # ── 数据流 ──
     st.markdown(
         """
 <div class="glass">
@@ -1381,7 +1376,6 @@ def _page_showcase() -> None:
         unsafe_allow_html=True,
     )
 
-    # ── 三大亮点 ──
     st.markdown("## 关键亮点")
     h1, h2, h3 = st.columns(3)
     with h1:
@@ -1415,7 +1409,6 @@ def _page_showcase() -> None:
             unsafe_allow_html=True,
         )
 
-    # ── 部署信息 ──
     st.markdown("## 部署状态")
     d1, d2 = st.columns(2)
     with d1:
@@ -1445,11 +1438,11 @@ def _page_showcase() -> None:
             unsafe_allow_html=True,
         )
 
-    # ── 报告草稿折叠 ──
     report_draft = _read_text("EXPERIMENT_REPORT_DRAFT.md", "")
     if report_draft:
         with st.expander("查看实验报告草稿"):
             st.markdown(report_draft)
+
 
 
 st.set_page_config(page_title="AI 与机器人技术情报系统", layout="wide")
